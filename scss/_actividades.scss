@@ -1,0 +1,98 @@
+.bodyactividades {
+    display: grid; 
+   grid-auto-columns: 1fr; 
+   grid-auto-rows: 1fr; 
+   grid-template-columns: 1fr 1fr 1fr; 
+   grid-template-rows: 1fr 1fr 1fr 1fr; 
+   gap: 0px 0px; 
+   grid-template-areas: 
+    "header header header"
+    "header header header"
+    "main main main"
+    "footer footer footer"; 
+    background-color: 658864;
+   
+}
+
+
+.headeractividades {
+    grid-area: header;
+}
+
+.mainactividades {
+    grid-area: main;
+    font-family: $texto1;
+    font-size: 15px;
+    background-color: B7B78A;
+    margin-top: 260px;
+}
+
+.menu-actividades{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    margin-top: 80px;
+    margin-left: 100px;
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    background-color:B7B78A;
+    border-radius: 15px;
+    font-family: $texto2;
+}
+
+.menu-actividades li{
+    display:inline-block;
+    text-align: center;
+    margin: 10px;
+}
+
+.menu-actividades a{
+    text-decoration: none;
+}
+
+
+.sector1 {
+    
+    font-family: $texto1;
+    font-size: 15px;
+   
+}
+
+.asideactividades {
+    font-family: $texto1;
+    font-size: 15px;
+}
+
+.sector2 {
+    font-family: $texto1;
+    font-size: 15px;
+}
+
+.sector3 {
+    font-family: $texto1;
+    font-size: 15px;
+   
+    
+}
+
+.footeractividades {
+    grid-area: footer;
+    background-color:658864 ;
+    margin-top: 10px;
+}
+
+
+
+.imagenactividades {
+    width: 200px;
+    margin-left: 10px;
+    border: 5px;
+    border-style: inset;
+    border-color: black;
+    margin-top: 40px;
+}
+
+.textoactividades{
+    margin-left: 15px;
+}
