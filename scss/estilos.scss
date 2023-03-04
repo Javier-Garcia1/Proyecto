@@ -149,7 +149,7 @@ h4 {
 }
 
 .carousel-control-next{
-    margin-right: 65px;
+   margin-right: 65px;
  }
 
 .nav h6 {
@@ -164,33 +164,78 @@ h4 {
     background-color:D0B8A8;
 }
 
+.redes{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:center
+     
+}
+
 .facebook{
-    width: 60px;
+    width: 50px;
+    margin-left: 20px;
 }
 
 .instagram{
-    width: 40px;
+    width: 30px;
+    margin-left: 20px;
 }
 
 .twitter{
-   width: 40px;
-   margin-left: 10px;
+   width: 30px;
+   margin-left: 30px;
+   margin-top: 10%;
 }
 
 .paginaweb{
-    width: 40px ;
-    margin-left: 10px;
+    width: 30px ;
+    
 }
+
+.textofooter{
+    font-family: $texto1;
+    font-size: 18px;
+    margin-left: 10px
+}
+
+@media screen and(max-width:768px) {
+    body{
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+        grid-template-areas: 
+       "header header header header"
+       "section-1 section-1 section-1 section-1"
+       "aside aside aside aside"
+       "nav nav nav nav"
+       "footer footer footer footer"
+       ;
+    }
+
+    .Menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagencircuito {
+        width: 450px;
+        height: 150px;
+        margin-left: 80px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        
+    }
+
+    .aside{
+       margin-left: 30px;
+    }
+
+    .Imagen-fotos{
+        width: 650px;
+        margin-left: 30px;
+    }
+}
+
 
 @import "informacion";
 @import "ubicacion";
 @import "actividades";
 @import "contacto";
-
-
-
-
- 
-
-
-

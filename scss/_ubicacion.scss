@@ -86,3 +86,13 @@
     font-family:'Itim', cursive;
     font-size: 18px;
 }
+
+@media screen and(max-width:768px) {
+    .mapa{
+        width: 600px;
+    }
+    
+    .mapa1{
+        width: 600px;
+    }
+}
