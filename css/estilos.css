@@ -152,6 +152,29 @@ h4 {
   font-size: 18px;
   margin-left: 10px; }
 
+@media screen and (max-width: 768px) {
+  body {
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "header header header header"
+ "section-1 section-1 section-1 section-1"
+ "aside aside aside aside"
+ "nav nav nav nav"
+ "footer footer footer footer"; }
+  .Menu {
+    display: flex;
+    flex-direction: column; }
+  .imagencircuito {
+    width: 450px;
+    height: 150px;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  .aside {
+    margin-left: 30px; }
+  .Imagen-fotos {
+    width: 650px;
+    margin-left: 30px; } }
+
 .bodyinformacion {
   margin: 0%;
   padding: 0%;
@@ -309,6 +332,12 @@ h4 {
   font-family: 'Itim', cursive;
   font-size: 18px; }
 
+@media screen and (max-width: 768px) {
+  .mapa {
+    width: 600px; }
+  .mapa1 {
+    width: 600px; } }
+
 .bodyactividades {
   display: grid;
   grid-auto-columns: 1fr;
@@ -384,6 +413,12 @@ h4 {
 
 .textoactividades {
   margin-left: 15px; }
+
+@media screen and (max-width: 768px) {
+  .menu-actividades {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px; } }
 
 .bodycontacto {
   padding: 0%;
